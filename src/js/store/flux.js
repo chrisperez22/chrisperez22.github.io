@@ -30,7 +30,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				//we have to loop the entire demo array to look for the respective index
 				//and change its color
-				const demo = store.demo.map((elm, i) => {
+				const about = store.demo.map((elm, i) => {
 					if (i === index) elm.background = color;
 					return elm;
 				});
@@ -39,6 +39,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 				setStore({ demo: demo });
 			}
 		}
+
+		
+	
 	};
 };
 
