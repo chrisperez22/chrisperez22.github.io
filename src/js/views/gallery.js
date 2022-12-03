@@ -14,6 +14,7 @@ import "../../styles/gallery.css";
 
 export const Gallery = () => {
 	const { store, actions } = useContext(Context);
+    
 
 	return (
 		<div className="container">

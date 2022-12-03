@@ -5,11 +5,13 @@ import "../../styles/navbar.css";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar bg-black mb-3">
+		<nav className="navbar bg-black">
 			<Link to="/">
 				<img className="logo" src={nine}/>
 			</Link>
-			<div className="ml-auto">
+			
+			<div className="options">
+			
 			<Link to="/">
 				<span className="btn btn-primary">Home</span>
 			</Link>
