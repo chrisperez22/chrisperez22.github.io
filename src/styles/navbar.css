@@ -1,8 +1,21 @@
 .logo{
-    height: 100%;
-    width: 30%;
+    width: 19%;
+    padding-left: 2%;
 }
 .options{
-    padding-top: 6%;
+    margin-left: auto;
+    padding-top: 0%;
+  
 }
-
+.number{
+    float: right;
+    margin-top: 2%;    
+}
+h9{
+    color: white;
+    font-size: xx-large;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+}

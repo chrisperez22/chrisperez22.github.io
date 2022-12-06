@@ -23,7 +23,7 @@ Closed
     <div class="col">
     <p2>CONTACT US <br></br>
 Main: (786) 296-4730 <br></br>
-Mariofinishconcrete@gmail.com</p2>
+Email: Mariovilchez08@icloud.com</p2>
     </div>
   </div>
 </div>

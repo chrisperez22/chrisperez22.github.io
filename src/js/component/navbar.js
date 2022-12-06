@@ -5,12 +5,15 @@ import "../../styles/navbar.css";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar bg-black">
+		<nav className="navbar sticky-top bg-black">
+			<div classname="brand">
 			<Link to="/">
 				<img className="logo" src={nine}/>
 			</Link>
-			
-			<div className="options">
+			<h9 className="number">𝘾𝘼𝙇𝙇 𝙐𝙎 𝙏𝙊𝘿𝘼𝙔 ! (786)-296-4730<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝙁𝙧𝙚𝙚 𝙀𝙨𝙩𝙞𝙢𝙖𝙩𝙚𝙨 !</h9>
+
+			</div>
+			<div className="options justify-content-end">
 			
 			<Link to="/">
 				<span className="btn btn-primary">Home</span>

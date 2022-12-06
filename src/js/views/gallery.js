@@ -8,6 +8,14 @@ import five from "../../img/bighouse.jpg"
 import six from "../../img/cars.jpg"
 import seven from "../../img/mid.jpg"
 import eight from "../../img/side.jpg"
+import nine from "../../img/caution.jpg"
+import ten from "../../img/favorite.jpg"
+import elleven from "../../img/favorite2.jpg"
+import twelve from "../../img/goodjob.jpg"
+import thirteen from "../../img/goodpic.jpg"
+import fourteen from "../../img/greyjob.jpg"
+import fifteen from "../../img/messy.jpg"
+import sixteen from "../../img/straight.jpg"
 import { Context } from "../store/appContext";
 
 import "../../styles/gallery.css";
@@ -77,6 +85,63 @@ export const Gallery = () => {
   <div className="caption">gggggg</div>
   </div>
   
+  <img className="myImg" src={nine}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  <img className="myImg" src={ten}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  <img className="myImg" src={elleven}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  <img className="myImg" src={twelve}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  <img className="myImg" src={thirteen}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  <img className="myImg" src={fourteen}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  <img className="myImg" src={fifteen}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  <img className="myImg" src={sixteen}></img>
+  <div className="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01"/>
+  <div className="caption">gggggg</div>
+  </div>
+
+  
 
 
 
@@ -84,10 +149,10 @@ export const Gallery = () => {
 
 
 
-			<br />
+			{/* <br />
 			<Link to="/">
 				<button className="btn btn-primary">Back </button>
-			</Link>
+			</Link> */}
 		</div>
 	);
 };

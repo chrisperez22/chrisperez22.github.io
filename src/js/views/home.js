@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
-import sone from "../../img/slideone.jpg"
-import stwo from "../../img/slidetwo.jpg"
-import sthree from "../../img/slidethree.jpg"
+import sone from "../../img/greyjob.jpg"
+import stwo from "../../img/favorite2.jpg"
+import sthree from "../../img/favorite.jpg"
 import backtwo from "../../img/back2.jpg"
-import sfive from "../../img/slidefive.jpg"
+import sfive from "../../img/texture.jpg"
 import check from "../../img/checkmark.jpg"
 
 import { Context } from "../store/appContext";
