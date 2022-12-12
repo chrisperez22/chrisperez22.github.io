@@ -5,7 +5,7 @@ import "../../styles/navbar.css";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar sticky-top bg-black">
+		<nav className="navbar bg-black">
 			<div classname="brand">
 			<Link to="/">
 				<img className="logo" src={nine}/>

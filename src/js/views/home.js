@@ -55,32 +55,33 @@ export const Home = () => (
 <div class="row">
 <div class="col-4">
 
-<h5><img class="mark"src={check}></img>&nbsp; &nbsp;&nbsp;𝙎𝙩𝙖𝙢𝙥𝙚𝙙 𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 </h5>
+<h5>>𝙎𝙩𝙖𝙢𝙥𝙚𝙙 𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 </h5>
 
-
+{/* <img class="mark"src={check}></img */}
   <p1 id="service">Stamped concrete is frequently used for pool decks, patios, and driveways. The appealing and long-lasting alternative to conventional concrete is stamped concrete. Because it can produce a distinctive and fashionable look that is also long-lasting and simple to maintain.</p1>
 </div>
 <div class="col-4">
-<h5><img class="mark"src={check}></img>&nbsp; &nbsp;&nbsp;𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 𝙋𝙤𝙤𝙡 𝘿𝙚𝙘𝙠</h5>
+<h5>>𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 𝙋𝙤𝙤𝙡 𝘿𝙚𝙘𝙠</h5>
   <p1 id="service">
   For a pool deck, concrete is a fantastic material because it is sturdy and long-lasting. With the right care and maintenance, concrete can last for many years. Your pool deck can also be made more interesting and beautiful by stamping concrete.  A concrete contractor will be able to install your deck effectively and assist you in selecting the best material.
 </p1>
 </div>
 <div class="col-4">
 
-<h5><img class="mark"src={check}></img>&nbsp; &nbsp;&nbsp;𝘼𝙡𝙪𝙢𝙞𝙣𝙪𝙢 𝙁𝙚𝙣𝙘𝙞𝙣𝙜 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣  </h5>
+<h5>>𝘼𝙡𝙪𝙢𝙞𝙣𝙪𝙢 𝙁𝙚𝙣𝙘𝙞𝙣𝙜 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣  </h5>
   <p1 id="service">They are durable, easy to install, maintenance free and an affordable fencing solution for every property. Above all, when installed correctly they look great and enhance the style of your property.</p1>
 </div>
+
 <div class="col-4">
-<h5><img class="mark"src={check}></img>&nbsp; &nbsp;&nbsp;𝙋𝙡𝙖𝙞𝙣 𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 </h5>
+<h5>>𝙋𝙡𝙖𝙞𝙣 𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 </h5>
   <p1 id="service">Plain concrete is most commonly used for paving and flooring. Made from a mix of cement, aggregate, and water the different types of aggregate and ratio of materials used will give different types of cement with slightly different properties.</p1>
 </div>
 <div class="col-4">
-<h5><img class="mark"src={check}></img>&nbsp; &nbsp;&nbsp;𝙀𝙪𝙧𝙤 𝙏𝙞𝙡𝙚</h5>
+<h5>>𝙀𝙪𝙧𝙤 𝙏𝙞𝙡𝙚</h5>
   <p1 id="service">Eurotile is a product that consists of acrylic and concrete. It is applied over concrete and most any other sound and solid surface.</p1>
 </div>
 <div class="col-4">
-<h5><img class="mark"src={check}></img>&nbsp; &nbsp;&nbsp;𝙎𝙞𝙙𝙚𝙬𝙖𝙡𝙠</h5>
+<h5>>𝙎𝙞𝙙𝙚𝙬𝙖𝙡𝙠</h5>
   <p1 id="service"></p1>
 </div>
 </div>

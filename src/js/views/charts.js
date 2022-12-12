@@ -13,7 +13,7 @@ export const Charts = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="container">
+		<div className="container bg-white">
 			<img classname="chart"src={chart}></img>
 			<img classname="chart"src={charta}></img>
 			<img classname="chart"src={chartb}></img>
