@@ -46,6 +46,32 @@ padding: 5%;
   padding: 2%;
 
 }
+.card{
+ align-items: center;
+}
+.image-description {
+  display: block;
+  float: left;
+  padding-left: 15px;
+  
+}
+
+.right{
+  float: right;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* .mark{
 width: 10%;
 height: 8%; */

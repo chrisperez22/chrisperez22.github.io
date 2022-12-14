@@ -1,0 +1,41 @@
+.pic1{
+width: 100%;
+
+}
+.first{
+  padding: 0;
+    border-style:solid;
+    border-color:#000000;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+h1{
+    color: rgb(243, 243, 243);
+    
+}
+.pic2{
+width: 100%;
+
+}
+.head{
+  padding: 3%;
+}
+.container{
+  padding: 5%;
+}
+.row{
+  height: 100%;
+}
+.footer{
+  padding: 1%;
+}
+.footer3{
+  padding: 4%;
+}
+.footer2{
+  padding: 9px;
+}
+.footer4{
+  padding: 5px;
+}
