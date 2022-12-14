@@ -4,7 +4,7 @@ export const Footer = () => (
 	<footer className="footer mt-auto py-3 text-center bg-black">
 		       
            
-            <div class="container text-center">
+            <div class="foot container text-center">
   <div class="row">
     <div class="col">
      <p2>SERVICE AREA <br></br>Miami, FL</p2>

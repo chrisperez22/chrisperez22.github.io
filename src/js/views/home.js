@@ -72,7 +72,7 @@ export const Home = () => (
         <div class="col-4">
           <h5>𝙎𝙩𝙖𝙢𝙥𝙚𝙙 𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 </h5>
 
-          <img class="right" src={work4}></img>
+          
           <p1 id="service">
             Stamped concrete is frequently used for pool decks, patios, and
             driveways. The appealing and long-lasting alternative to
@@ -88,7 +88,7 @@ export const Home = () => (
 
         <div class="col-4">
     
-        <img class="right" src={pool}></img>
+        
           <h5>𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 𝙋𝙤𝙤𝙡 𝘿𝙚𝙘𝙠</h5>
           <p1 id="service">
             For a pool deck, concrete is a fantastic material because it is
@@ -109,7 +109,7 @@ export const Home = () => (
 
 
         <div class="col-4">
-        <img class="right" src={work2}></img>
+        
           <h5>𝘼𝙡𝙪𝙢𝙞𝙣𝙪𝙢 𝙁𝙚𝙣𝙘𝙞𝙣𝙜 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣 </h5>
           <p1 id="service">
             They are durable, easy to install, maintenance free and an
@@ -129,7 +129,7 @@ export const Home = () => (
           </p1>
         </div>
         <div class="col-4">
-        <img class="right" src={work3}></img>
+       
           <h5>𝙀𝙪𝙧𝙤 𝙏𝙞𝙡𝙚</h5>
           <p1 id="service">
             Eurotile is a product that consists of acrylic and concrete. It is
@@ -137,8 +137,8 @@ export const Home = () => (
           </p1>
         </div>
         <div class="col-4">
-          <h5>𝙎𝙞𝙙𝙚𝙬𝙖𝙡𝙠</h5>
-          <p1 id="service"></p1>
+          <h5>𝘼𝙧𝙩𝙞𝙛𝙞𝙘𝙞𝙖𝙡 𝙂𝙧𝙖𝙨𝙨</h5>
+          <p1 id="service">Artificial grass is material that is made of synthetic, man-made fibers that look like real grass. The synthetic grass blades are green and come in different pile heights.</p1>
         </div>
       </div>
     </div>
