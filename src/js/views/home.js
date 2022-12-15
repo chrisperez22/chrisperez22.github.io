@@ -142,57 +142,13 @@ export const Home = () => (
         </div>
       </div>
     </div>
+    <Link to="/services">
+				<button className="btn-primary">Services</button>
+			</Link>
 
-    <form class="contact row g-3 bg-light">
-      <h3>Get in Contact with us for a FREE estimate !</h3>
-      <div class="col-md-4">
-        <label for="inputName4" class="form-label"></label>
-        <input
-          type="name"
-          class="form-control"
-          id="inputName4"
-          placeholder="Name:"
-        />
-      </div>
-      <div class="col-md-4">
-        <label for="inputPhone4" class="form-label"></label>
-        <input
-          type="phone"
-          class="form-control"
-          id="inputPhone4"
-          placeholder="Phone:"
-        />
-      </div>
-      <div class="col-md-4">
-        <label for="inputEmail" class="form-label"></label>
-        <input
-          type="email"
-          class="form-control"
-          id="inputEmail"
-          placeholder="Email:"
-        />
-      </div>
-      <div class="message col-12">
-        <label for="inputMessage2" class="form-label"></label>
-        <input
-          type="text"
-          class="form-control"
-          id="inputMessage2"
-          placeholder="Message:"
-        />
-      </div>
-      <br></br> <br></br> <br></br> <br></br> <br></br>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">
-          Send
-        </button>
-      </div>
-    </form>
+    
     <br></br>
     <br></br>
     <br></br>
-    <div className="card bg-light">
-      <img src={pay} />
-    </div>
   </div>
 );

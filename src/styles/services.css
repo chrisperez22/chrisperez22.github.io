@@ -1,6 +1,4 @@
-h1{
-  color: rgb(243, 243, 243);
-}
+
 .head{
   padding: 3%;
 }
@@ -16,18 +14,16 @@ h1{
 
 .col {
   display: table-cell; /* Make elements inside the container behave like table cells */
-  padding: 0;
-  border-style:solid;
-  border-color:#060505;
-  margin: auto;
-  text-align: center;
-  padding: 5px;
+  justify-content: space-between;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  padding: 10px;
 }
 .pic1{
   width: 100%;
   padding: 2%;
 
 }
-.footer3{
-  padding: 5%;
+h1{
+  size: medium;
 }

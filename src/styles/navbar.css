@@ -1,6 +1,8 @@
 .logo{
-    width: 19%;
+    width: 17%;
     padding-left: 2%;
+  
+   
 }
 .options{
     margin-left: auto;
@@ -12,10 +14,16 @@
     margin-top: 2%;    
 }
 h9{
-    color: white;
-    font-size: xx-large;
+    color: rgb(152, 151, 151);
+    font-size: x-large;
 }
 .brand{
     display: flex;
     justify-content: space-between;
+}
+.btn{
+    padding: 10px;
+border: none;
+background: none;
+
 }
