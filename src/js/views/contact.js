@@ -1,11 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 
 import { Link } from "react-router-dom";
-import chart from "../../img/chart.jpg"
-import charta from "../../img/chart2.jpg"
-import chartb from "../../img/chart3.jpg"
-import chartc from "../../img/chart4.jpg"
-import chartd from "../../img/chart5.jpg"
+import tack from "../../img/straight.jpg"
 import { Context } from "../store/appContext";
 
 import "../../styles/contact.css";
@@ -14,8 +10,11 @@ export const Contact = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		
-		<div className="container">
+    <div>
+		<h2 className="titl">Request Quote</h2>
+    <p className="little">We are here to help you, We’d like to hear more.</p>
+		<div className="exam container col-8">
+    
 		<form action="https://formspree.io/f/xyyaggpd" method="POST" class="contact row g-3 bg-light ">
       <h3>Get in Contact with us for a FREE estimate !</h3>
 	  
@@ -56,9 +55,12 @@ export const Contact = () => {
         <button class="btn-primary" type="submit">
           Send
         </button>
-      </div>
+   
+  
+    </div>
     </form>
-		
+    <img class="con" src={tack}></img>
 		</div>
+    </div>
 	);
 };
