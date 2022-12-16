@@ -82,10 +82,6 @@ export const Home = () => (
           </p1>
         </div>
 
-
-
-
-
         <div class="col-4">
     
         
@@ -99,13 +95,6 @@ export const Home = () => (
           </p1>
          
         </div>
-
-
-
-
-
-
-
 
 
         <div class="col-4">
@@ -147,11 +136,7 @@ export const Home = () => (
 			</Link> */}
       <div className="video">
 			<div className="container">
-			<div className="col-1">
-
-<button className=" btn-primary button">GET YOUR FREE ESTIMATE TODAY</button>
-			</div>
-			<div className="col-2">
+			<div className="vid">
 			<iframe width="600" height="315" src="https://www.youtube.com/embed/LwUL2YHnsh4" frameborder="0" allowfullscreen></iframe>
 			</div>
 			</div>

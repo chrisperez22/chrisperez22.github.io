@@ -33,27 +33,22 @@ h5{
 .ser{
 padding: 5%;
 }
-/* .footer {
-  background-image: linear-gradient(to right, rgb(18, 18, 18) , rgb(19, 15, 130));
-} */
-.card{
- align-items: center;
-}
-.image-description {
-  display: block;
-  float: left;
-  padding-left: 15px;
-  
+
+
+@media screen and (max-width: 940px){
+  .video .container{
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+
+  }
+  .video iframe{
+    width: 100%;
+    height: auto;
+  }
 }
 
-.right{
-  float: right;
- 
-}
-.video .container{
-  margin: 5rem auto;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
+.video{
+  text-align: center;
 
+}

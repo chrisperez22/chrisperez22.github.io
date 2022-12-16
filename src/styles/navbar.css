@@ -21,9 +21,14 @@ h9{
     display: flex;
     justify-content: space-between;
 }
-.btn{
+.button{
     padding: 10px;
 border: none;
 background: none;
+color: white;
 
+}
+.button:hover{
+    border-bottom: 3px solid rgb(34, 68, 180);
+    padding-bottom: 12px;
 }
