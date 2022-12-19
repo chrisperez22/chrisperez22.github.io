@@ -11,6 +11,8 @@ import pool from "../../img/pooldeck.jpg";
 import work2 from "../../img/fence.jpg";
 import work3 from "../../img/euro.jpg";
 import work4 from "../../img/tile.jpg";
+import {FaBuilding} from "react-icons/fa"
+import {aCheckCircle} from "react-icons/fa"
 
 import { Context } from "../store/appContext";
 
@@ -47,7 +49,7 @@ export const Home = () => (
           data-bs-target="#carouselExampleFade"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carusel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -63,6 +65,21 @@ export const Home = () => (
     </div>
 
     <br></br>
+
+    <div class="row align-items-center">
+    <div class="col">
+    <FaBuilding/>
+      With over 25 years experience, Our company can consistency offer high quality concrete services for your projects need.
+    </div>
+    <div class="col">
+     <aCheckCircle/>
+    In best-quality concretes like self-consolidating, high-strengths, and best-performance concretes, foamed concrete can be used by suitable mix designs and selection of materials.
+    </div>
+    <div class="col">
+      Expect us there on time, prepared, and on budget. <strong>EVERY TIME</strong>
+    </div>
+  </div>
+
     <div class="ser">
       <div class="services">
         <h3>𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬</h3>
