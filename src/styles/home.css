@@ -2,7 +2,6 @@
   width: auto;
  height: 800px;
 }
-
 .header{
   /* background-color: #172172; */
   background-color: black;
@@ -10,8 +9,6 @@
     top: 0;
     z-index: 999;
     height: 190px;
-    
-  
 }
 
 h3{
@@ -20,8 +17,6 @@ h3{
  
   
 }
-
-
 h5{
   color: #0fabf3;
   
@@ -35,6 +30,36 @@ padding: 5%;
 }
 
 
+.video{
+  text-align: center;
+}
+.second{
+
+text-align: center;
+float: left;
+display:flex ;
+padding-top: 20px;
+
+}
+.exper{
+  float: right;
+text-align: center;
+}
+
+h1{
+  font-size: xx-large;
+  color: #0fabf3;
+
+}
+.sec{
+  width: 80%;
+  margin: auto;
+}
+
+
+
+
+
 @media screen and (max-width: 940px){
   .video .container{
     max-width: 100%;
@@ -46,9 +71,4 @@ padding: 5%;
     width: 100%;
     height: auto;
   }
-}
-
-.video{
-  text-align: center;
-
 }

@@ -18,7 +18,7 @@ export const Navbar = () => {
 			<Link to="/">
 				<button className="button">Home</button>
 			</Link>
-				<Link to="/demo">
+				<Link to="/aboutus">
 					<button className="button">About Us</button>
 				</Link>
 				<Link to="/gallery">

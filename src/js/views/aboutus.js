@@ -7,28 +7,19 @@ import user3 from "../../img/lil.jpg"
 
 import { Context } from "../store/appContext";
 
-import "../../styles/whyus.css";
+import "../../styles/aboutus.css";
 
-export const Demo = () => {
+export const AboutUs = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
 	
 	
 	<div>
-		{/* <div className="video">
-			<div className="container">
-			<div className="col-1">
+		<h2>About Our Company</h2>
+	<div>
 
-<button className="button">GET YOUR FREE ESTIMATE TODAY</button>
-			</div>
-			<div className="col-2">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/LwUL2YHnsh4" frameborder="0" allowfullscreen></iframe>
-			</div>
-			</div>
-			
-
-		</div> */}
+	</div>
 		
 		<div className="testimonials">
 		<div className="container">
