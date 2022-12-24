@@ -16,9 +16,12 @@ export const AboutUs = () => {
 	
 	
 	<div>
-		<h2>About Our Company</h2>
-	<div>
-
+		
+	<div className="about">
+		<div className="container">
+	<h2>About Our Company</h2>
+	<p>We’ve spent over 25 years perfecting our services and are happy to offer them to both residential and commercial properties. We’ve helped create brand new parking lots, patios, and driveways for many people and have expertly restored many levels of damaged areas as well. We work with a wide variety of clients and offer the highest quality products for each and every one of our customers. Our company is well-trained and after evaluating your situation, will present you with their expert advice for the best solution. Once we begin your service, we’ll complete our work on time and in a professional manner. As a trusted company you can count on us to leave you with a beautiful, strong, and well-fashioned service. We put our customers above all else, so if at any point you have a question or concern (whether it be before, during, or after our service), please don’t hesitate to address us.</p>
+	</div>
 	</div>
 		
 		<div className="testimonials">
