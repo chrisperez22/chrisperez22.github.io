@@ -11,6 +11,8 @@ import pool from "../../img/pooldeck.jpg";
 import work2 from "../../img/fence.jpg";
 import work3 from "../../img/euro.jpg";
 import work4 from "../../img/tile.jpg";
+import work5 from "../../img/job9.jpg";
+import work6 from "../../img/plain.jpg";
 import {FaBuilding} from "react-icons/fa"
 import {FaRegHandshake} from "react-icons/fa"
 import {FaRegCalendarAlt} from "react-icons/fa"
@@ -106,7 +108,7 @@ export const Home = () => (
 					<p></p>
 				</div>
 				<div className="card">
-					<img src={work3} alt="user1"/>
+					<img src={work5} alt="user1"/>
 				<strong>𝘼𝙧𝙩𝙞𝙛𝙞𝙘𝙞𝙖𝙡 𝙂𝙧𝙖𝙨𝙨</strong>
 					<p>Artificial grass is material that is made of synthetic, man-made fibers that look like real grass. The synthetic grass blades are green and come in different pile heights.</p>
 					
@@ -124,7 +126,7 @@ export const Home = () => (
 					<p></p>
 				</div>
 				<div className="card">
-				<img src={work3} alt="user1"/>
+				<img src={pool} alt="user1"/>
 				<strong>𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚 𝙋𝙤𝙤𝙡 𝘿𝙚𝙘𝙠</strong>
 					<p>For a pool deck, concrete is a fantastic material because it is
             sturdy and long-lasting.Your pool deck can also be made
@@ -133,7 +135,7 @@ export const Home = () => (
 					<p></p>
 				</div>
 				<div className="card">
-					<img src={work3} alt="user1"/>
+					<img src={work6} alt="user1"/>
 					<strong>𝙋𝙡𝙖𝙞𝙣 𝘾𝙤𝙣𝙘𝙧𝙚𝙩𝙚</strong>
 					<p>Plain concrete is most commonly used for paving and flooring. Made
             from a mix of cement, aggregate, and water the different types of
