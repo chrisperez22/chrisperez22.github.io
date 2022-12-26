@@ -42,8 +42,7 @@
     padding: 1rem;
 }
 .testimonials img{
-    border-radius: 80px;
-    margin-top: -2rem;
+    border-radius: 90px;
     
 }
 .testimonials .card p {
@@ -82,5 +81,18 @@
     
     .container{
         height: 2000px;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+       align-items: center;
+    }
+    .company{
+        font-size: small;
+         
+     }
+     .us{
+       width: 100%;
+       
     }
 }

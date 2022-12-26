@@ -51,8 +51,8 @@ export const Home = () => (
           data-bs-target="#carouselExampleFade"
           data-bs-slide="prev"
         >
-          <span class="carusel-control-prev-icon bg-black" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+          <span class="visually-hidden">P</span>
         </button>
         <button
           class="carousel-control-next"
