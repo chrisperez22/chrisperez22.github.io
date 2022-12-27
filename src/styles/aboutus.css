@@ -23,7 +23,7 @@
 .testimonials .container{
     width: 1240px;
     margin: 4rem auto;
-    padding: 4rem 0rem;
+    padding: 0rem 0rem;
 }
 .testimonials h2{
     font-size: 3rem;
@@ -79,9 +79,7 @@
         height: 20%;
     }
     
-    .container{
-        height: 2000px;
-    }
+   
     .about{
         display: flex;
         flex-wrap: wrap;
@@ -95,4 +93,5 @@
        width: 100%;
        
     }
+ 
 }

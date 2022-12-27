@@ -4,10 +4,12 @@ textarea {
 }
 .exam{
   display: flex;
+padding-bottom: 6%;
 }
 .con{
- height: 337px ;
+ height: 450px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+
 }
 .contact{
   border-width:3px;
@@ -26,3 +28,24 @@ textarea {
   text-align: center;
   color: grey;
 }
+form{
+  height: 450px;
+  
+}
+@media screen and (max-width: 940px){
+  .con{
+width: 220px; 
+height: auto;
+
+ }
+ .exam{
+padding-bottom: 20%;
+ }
+ form{
+  height: 540px;
+
+ }
+ 
+
+}
+

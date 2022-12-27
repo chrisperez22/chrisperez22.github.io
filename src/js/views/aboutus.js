@@ -53,14 +53,9 @@ export const AboutUs = () => {
 					<p><span>Cecile Gomez</span></p>
 					<p></p>
 				</div>
-	
-			
 		</div>
 		</div>
 		</div>
-		{/* <Link to="/">
-				<button className="btn btn-primary">Back home</button>
-			</Link> */}
 		</div>
 	);
 };

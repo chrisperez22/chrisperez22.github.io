@@ -13,7 +13,7 @@ export const Contact = () => {
     <div>
 		<h2 className="titl">Request Quote</h2>
     <p className="little">We are here to help you, We’d like to hear more.</p>
-		<div className="exam container col-8">
+		<div className="exam container">
     
 		<form action="https://formspree.io/f/xyyaggpd" method="POST" class="contact row g-3 bg-light ">
       <h3>Get in Contact with us for a FREE estimate !</h3>
