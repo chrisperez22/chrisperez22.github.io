@@ -70,18 +70,18 @@ export const Home = () => (
 
     <div class="sec row">
     <div class="col">
-   <div className="exper"><h1>Expierence &nbsp;&nbsp;<FaBuilding color="grey" size={40}/></h1>   
-      With over 25 years experience, Our company can consistency offer high quality concrete services for your projects need.
+   <div className="exper"><h1>Expierence <FaBuilding color="grey" size={25}/></h1>   
+      <p1>With over 25 years experience, Our company can consistency offer high quality concrete services for your projects need.</p1>
     </div>
     </div>
     <div class="col">
-    <div className="exper"><h1>Quality&nbsp; <FaRegHandshake color="grey" size={40}/></h1>  
-    In best-quality concretes like self-consolidating, high-strengths, and best-performance concretes, foamed concrete can be used by suitable mix designs and selection of materials.
+    <div className="exper"><h1>Quality&nbsp; <FaRegHandshake color="grey" size={30}/></h1>  
+    <p1>In best-quality concretes like self-consolidating, high-strengths, and best-performance concretes, foamed concrete can be used by suitable mix designs and selection of materials.</p1>
     </div>
     </div>
     <div class="col">
-    <div className="exper"><h1>Reliability &nbsp;<FaRegCalendarAlt color="grey" size={30}/></h1> 
-      Expect us there on time, prepared, and on budget. <strong>EVERY TIME</strong>
+    <div className="exper"><h1>Reliability &nbsp;<FaRegCalendarAlt color="grey" size={25}/></h1> 
+      <p1>Expect us there on time, prepared, and on budget. <strong>EVERY TIME</strong></p1>
       </div>
       </div>
   </div>
@@ -98,7 +98,7 @@ export const Home = () => (
             conventional concrete is stamped concrete. Because it can produce a
             distinctive and fashionable look that is also long-lasting and
             simple to maintain.</p>
-					<p></p>
+					
 				</div>
 				<div className="card">
 				<img src={work3} alt="user1"/>
@@ -155,7 +155,7 @@ export const Home = () => (
       <div className="video">
 			<div className="container">
 			<div className="vid">
-			<iframe width="600" height="315" src="https://www.youtube.com/embed/LwUL2YHnsh4" frameborder="0" allowfullscreen></iframe>
+			<iframe width="470" height="300" src="https://www.youtube.com/embed/LwUL2YHnsh4" frameborder="0" allowfullscreen></iframe>
 			</div>
 			</div>
 			
