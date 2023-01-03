@@ -21,122 +21,125 @@ import { Context } from "../store/appContext";
 import "../../styles/gallery.css";
 
 export const Gallery = () => {
-	const { store, actions } = useContext(Context);
-    const galleryItem = document.getElementsByClassName("gallery-item");
-const lightBoxContainer = document.createElement("div");
-const lightBoxContent = document.createElement("div");
-const lightBoxImg = document.createElement("img");
-const lightBoxPrev = document.createElement("div");
-const lightBoxNext = document.createElement("div");
-
-lightBoxContainer.classList.add("lightbox");
-lightBoxContent.classList.add("lightbox-content");
-lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
-lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
-
-lightBoxContainer.appendChild(lightBoxContent);
-lightBoxContent.appendChild(lightBoxImg);
-lightBoxContent.appendChild(lightBoxPrev);
-lightBoxContent.appendChild(lightBoxNext);
-
-document.body.appendChild(lightBoxContainer);
-
-let index = 1;
-
-function showLightBox(n) {
-    if (n > galleryItem.length) {
-        index = 1;
-    } else if (n < 1) {
-        index = galleryItem.length;
-    }
-    let imageLocation = galleryItem[index-1].children[0].getAttribute("src");
-    lightBoxImg.setAttribute("src", imageLocation);
-}
-
-function currentImage() {
-    lightBoxContainer.style.display = "block";
-
-    let imageIndex = parseInt(this.getAttribute("data-index"));
-    showLightBox(index = imageIndex);
-}
-for (let i = 0; i < galleryItem.length; i++) {
-    galleryItem[i].addEventListener("click", currentImage);
-}
-
-function slideImage(n) {
-    showLightBox(index += n);
-}
-function prevImage() {
-    slideImage(-1);
-}
-function nextImage() {
-    slideImage(1);
-}
-lightBoxPrev.addEventListener("click", prevImage);
-lightBoxNext.addEventListener("click", nextImage);
-
-function closeLightBox() {
-    if (this === event.target) {
-        lightBoxContainer.style.display = "none";
-    }
-}
-lightBoxContainer.addEventListener("click", closeLightBox);
-
+   
 	return (
-		<div className="container">
-			
-            <div class="gallery-container">
-    <div class="gallery-item" data-index="1">
-        <img src={one}/>
-    </div>
-    <div class="gallery-item" data-index="2">
-        <img src={two}/>
-    </div>
-    <div class="gallery-item" data-index="3">
-        <img src={three}/>
-    </div>
-    <div class="gallery-item" data-index="4">
-        <img src={four}/>
-    </div>
-    <div class="gallery-item" data-index="5">
-        <img src={five}/>
-    </div>
-    <div class="gallery-item" data-index="6">
-        <img src={six}/>
-    </div>
-    <div class="gallery-item" data-index="7">
-        <img src={seven}/>
-    </div>
-    <div class="gallery-item" data-index="8">
-        <img src={eight}/>
-    </div>
-    <div class="gallery-item" data-index="9">
-        <img src={nine}/>
-    </div>
-    <div class="gallery-item" data-index="10">
-        <img src={ten}/>
-    </div>
-    <div class="gallery-item" data-index="11">
-        <img src={elleven}/>
-    </div>
-    <div class="gallery-item" data-index="12">
-        <img src={twelve}/>
-    </div>
-    <div class="gallery-item" data-index="13">
-        <img src={thirteen}/>
-    </div>
-    <div class="gallery-item" data-index="14">
-        <img src={fourteen}/>
-    </div>
-    <div class="gallery-item" data-index="15">
-        <img src={fifteen}/>
-    </div>
+         
+        <div>
+       <div class="gallery">
+
+
+<div class="gallery__images-item one">
+  <a href="#1" class="gallery__images-link">
+    <span class="overlay"></span>
+    <img src={one} class="gallery__images-small" />
+  </a>
 </div>
 
-			{/* <br />
-			<Link to="/">
-				<button className="btn btn-primary">Back </button>
-			</Link> */}
-		</div>
+<div class="gallery__images-item two">
+  <a href="#2" class="gallery__images-link">
+    <span class="overlay"></span>
+    <img src={two} class="gallery__images-small" />
+  </a>
+</div>
+
+<div class="gallery__images-item three">
+  <a href="#3" class="gallery__images-link">
+    <span class="overlay"></span>
+    <img src={three} class="gallery__images-small" />
+  </a>
+</div>
+
+<div class="gallery__images-item four">
+  <a href="#4" class="gallery__images-link">
+    <span class="overlay"></span>
+    <img src={four} class="gallery__images-small" />
+  </a>
+</div>
+
+<div class="gallery__images-item five">
+  <a href="#5" class="gallery__images-link">
+    <span class="overlay"></span>
+    <img src={five} class="gallery__images-small" />
+  </a>
+</div>
+
+
+
+
+<div class="gallery__lightbox" id="1">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={one} class="gallery__lightbox-image" />
+    <a href="#2" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+
+<div class="gallery__lightbox" id="2">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={two} class="gallery__lightbox-image" />
+    <a href="#1" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#3" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+
+<div class="gallery__lightbox" id="3">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={three} class="gallery__lightbox-image" />
+    <a href="#2" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#4" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+
+<div class="gallery__lightbox" id="4">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={four} class="gallery__lightbox-image" />
+    <a href="#3" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#5" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+
+<div class="gallery__lightbox" id="5">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={five} class="gallery__lightbox-image" />
+    <a href="#4" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#6" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+
+
+</div>
+      </div>
 	);
 };
