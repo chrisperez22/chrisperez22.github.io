@@ -30,35 +30,35 @@ export const Gallery = () => {
 
 <div class="gallery__images-item one">
   <a href="#1" class="gallery__images-link">
-    <span class="overlay"></span>
+    {/* <span class="overlay"></span> */}
     <img src={one} class="gallery__images-small" />
   </a>
 </div>
 
 <div class="gallery__images-item two">
   <a href="#2" class="gallery__images-link">
-    <span class="overlay"></span>
+    {/* <span class="overlay"></span> */}
     <img src={two} class="gallery__images-small" />
   </a>
 </div>
 
 <div class="gallery__images-item three">
   <a href="#3" class="gallery__images-link">
-    <span class="overlay"></span>
+    {/* <span class="overlay"></span> */}
     <img src={three} class="gallery__images-small" />
   </a>
 </div>
 
 <div class="gallery__images-item four">
   <a href="#4" class="gallery__images-link">
-    <span class="overlay"></span>
+    {/* <span class="overlay"></span> */}
     <img src={four} class="gallery__images-small" />
   </a>
 </div>
 
 <div class="gallery__images-item five">
   <a href="#5" class="gallery__images-link">
-    <span class="overlay"></span>
+    {/* <span class="overlay"></span> */}
     <img src={five} class="gallery__images-small" />
   </a>
 </div>

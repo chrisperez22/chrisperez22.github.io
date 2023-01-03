@@ -10,7 +10,7 @@ export const Navbar = () => {
 			<Link to="/">
 				<img className="logo" src={nine}/>
 			</Link>
-			<h9 className="number">𝘾𝘼𝙇𝙇 𝙐𝙎 𝙏𝙊𝘿𝘼𝙔 ! (786)-296-4730<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝙁𝙧𝙚𝙚 𝙀𝙨𝙩𝙞𝙢𝙖𝙩𝙚𝙨 !</h9>
+			<h9 className="number">𝘾𝘼𝙇𝙇 𝙐𝙎 𝙏𝙊𝘿𝘼𝙔 ! <a href="tel:(786)-296-4730">(786)-296-4730</a><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝙁𝙧𝙚𝙚 𝙀𝙨𝙩𝙞𝙢𝙖𝙩𝙚𝙨 !</h9>
 
 			</div>
 			<div className="options justify-content-end">
