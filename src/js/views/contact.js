@@ -15,7 +15,7 @@ export const Contact = () => {
     <p className="little">We are here to help you, We’d like to hear more.</p>
 		<div className="exam container">
     
-		<form action="https://formspree.io/f/xyyaggpd" method="POST" class="contact row g-3 bg-light ">
+		<form action="https://formspree.io/f/mknanzjy" method="POST" class="contact row g-3 bg-light ">
       <h3>Get in Contact with us for a FREE estimate !</h3>
 	  
 	 
