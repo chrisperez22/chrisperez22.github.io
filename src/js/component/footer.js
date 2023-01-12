@@ -19,7 +19,7 @@ Mon - Fri
 Sat 
 7:00 am - 7:00 pm  <br></br>
 Sun
-Closed
+1:00 pm - 6:00 pm
 </p2>
 
     </div>
