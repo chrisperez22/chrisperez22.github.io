@@ -15,7 +15,8 @@ import twelve from "../../img/goodjob.jpg"
 import thirteen from "../../img/goodpic.jpg"
 import fourteen from "../../img/greyjob.jpg"
 import fifteen from "../../img/messy.jpg"
-import sixteen from "../../img/plain.jpg"
+import sixteen from "../../img/euro.jpg"
+
 import { Context } from "../store/appContext";
 
 import "../../styles/gallery.css";
@@ -132,6 +133,7 @@ export const Gallery = () => {
     <img src={sixteen} class="gallery__images-small" />
   </a>
 </div>
+
 
 
 
