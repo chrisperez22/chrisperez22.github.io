@@ -16,6 +16,19 @@ import thirteen from "../../img/goodpic.jpg"
 import fourteen from "../../img/greyjob.jpg"
 import fifteen from "../../img/messy.jpg"
 import sixteen from "../../img/euro.jpg"
+import seventeen from "../../img/pink.jpg"
+import eighteen from "../../img/marble1.jpg"
+import nineteen from "../../img/guy3.jpg"
+import twenty from "../../img/long3.jpg"
+import twentyone from "../../img/mansion.jpg"
+import twentytwo from "../../img/nie5.jpg"
+import twentythree from "../../img/plain2.jpg"
+import twentyfour from "../../img/valid.jpg"
+import twentyfive from "../../img/pooldeck.jpg"
+import twentysix from "../../img/fence.jpg"
+import twentyseven from "../../img/progress.jpg"
+import twentyeight from "../../img/plain4.jpg"
+import twentynine from "../../img/very2.jpg"
 
 import { Context } from "../store/appContext";
 
@@ -133,7 +146,84 @@ export const Gallery = () => {
     <img src={sixteen} class="gallery__images-small" />
   </a>
 </div>
-
+<div class="gallery__images-item seventeen">
+  <a href="#17" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={seventeen} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item eightteen">
+  <a href="#18" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={eighteen} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item nineteen">
+  <a href="#19" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={nineteen} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twenty">
+  <a href="#20" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twenty} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentyone">
+  <a href="#21" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentyone} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentytwo">
+  <a href="#22" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentytwo} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentythree">
+  <a href="#23" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentythree} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentyfour">
+  <a href="#24" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentyfour} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentyfive">
+  <a href="#25" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentyfive} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentysix">
+  <a href="#26" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentysix} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentyseven">
+  <a href="#27" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentyseven} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentyeight">
+  <a href="#28" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentyeight} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item twentynine">
+  <a href="#29" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={twentynine} class="gallery__images-small" />
+  </a>
+</div>
 
 
 
@@ -370,6 +460,188 @@ export const Gallery = () => {
       <i class="fas fa-chevron-left"></i>
     </a>
     <a href="#17" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="17">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={seventeen} class="gallery__lightbox-image" />
+    <a href="#16" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#18" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="18">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={eighteen} class="gallery__lightbox-image" />
+    <a href="#17" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#19" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="19">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={nineteen} class="gallery__lightbox-image" />
+    <a href="#18" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#20" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="20">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twenty} class="gallery__lightbox-image" />
+    <a href="#19" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#21" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="21">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentyone} class="gallery__lightbox-image" />
+    <a href="#20" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#22" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="22">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentytwo} class="gallery__lightbox-image" />
+    <a href="#21" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#23" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="23">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentythree} class="gallery__lightbox-image" />
+    <a href="#22" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#24" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="24">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentyfour} class="gallery__lightbox-image" />
+    <a href="#23" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#25" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="25">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentyfive} class="gallery__lightbox-image" />
+    <a href="#24" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#26" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="26">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentysix} class="gallery__lightbox-image" />
+    <a href="#25" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#27" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="27">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentyseven} class="gallery__lightbox-image" />
+    <a href="#26" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#28" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="28">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentyeight} class="gallery__lightbox-image" />
+    <a href="#27" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#29" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="29">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={twentynine} class="gallery__lightbox-image" />
+    <a href="#29" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#30" class="next">
       <i class="fas fa-chevron-right"></i>
     </a>
   </div>

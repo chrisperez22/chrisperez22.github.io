@@ -7,7 +7,7 @@ import pool from "../../img/pooldeck.jpg";
 import work2 from "../../img/fence.jpg";
 import work3 from "../../img/euro.jpg";
 import work5 from "../../img/job9.jpg";
-import work6 from "../../img/plain.jpg";
+import work6 from "../../img/plain4.jpg";
 import "../../styles/services.css";
 
 export const Services = () => {
