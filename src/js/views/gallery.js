@@ -2,14 +2,14 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import one from "../../img/texture.jpg"
 import two from "../../img/grass.jpg"
-import three from "../../img/yard.jpg"
-import four from "../../img/back2.jpg"
+import three from "../../img/back2.jpg"
+import four from "../../img/yard.jpg"
 import five from "../../img/slidetwo.jpg"
 import six from "../../img/cars.jpg"
 import seven from "../../img/mid.jpg"
 import eight from "../../img/side.jpg"
 import nine from "../../img/caution.jpg"
-import ten from "../../img/favorite.jpg"
+import ten from "../../img/brown.jpg"
 import elleven from "../../img/favorite2.jpg"
 import twelve from "../../img/goodjob.jpg"
 import thirteen from "../../img/goodpic.jpg"
@@ -23,12 +23,35 @@ import twenty from "../../img/long3.jpg"
 import twentyone from "../../img/mansion.jpg"
 import twentytwo from "../../img/nie5.jpg"
 import twentythree from "../../img/plain2.jpg"
-import twentyfour from "../../img/valid.jpg"
+import twentyfour from "../../img/brick1.jpg"
 import twentyfive from "../../img/pooldeck.jpg"
 import twentysix from "../../img/fence.jpg"
 import twentyseven from "../../img/progress.jpg"
 import twentyeight from "../../img/plain4.jpg"
 import twentynine from "../../img/very2.jpg"
+import thirty from "../../img/brick.jpg"
+import thirtyone from "../../img/orange1.jpg"
+import thirtytwo from "../../img/orange2.jpg"
+import thirtythree from "../../img/orange3.jpg"
+import thirtyfour from "../../img/nice2.jpg"
+import thirtyfive from "../../img/brown.jpg"
+import thirtysix from "../../img/diamond.jpg"
+import thirtyseven from "../../img/valid.jpg"
+import thirtyeight from "../../img/favorite.jpg"
+import thirtynine from "../../img/nice9.jpg"
+import forty from "../../img/prog9.jpg"
+import fortyone from "../../img/plain6.jpg"
+import fortytwo from "../../img/plain8.jpg"
+import fortythree from "../../img/plain9.jpg"
+import fortyfour from "../../img/brick.jpg"
+import fortyfive from "../../img/red1.jpg"
+import fortysix from "../../img/red2.jpg"
+import fortyseven from "../../img/red3.jpg"
+import fortyeight from "../../img/yel1.jpg"
+import fortynine from "../../img/yel2.jpg"
+import fifty from "../../img/yel3.jpg"
+
+
 
 import { Context } from "../store/appContext";
 
@@ -224,6 +247,134 @@ export const Gallery = () => {
     <img src={twentynine} class="gallery__images-small" />
   </a>
 </div>
+<div class="gallery__images-item thirty">
+  <a href="#30" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirty} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtyone">
+  <a href="#31" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtyone} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtytwo">
+  <a href="#32" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtytwo} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtythree">
+  <a href="#33" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtythree} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtyfour">
+  <a href="#34" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtyfour} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtyfive">
+  <a href="#35" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtyfive} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtysix">
+  <a href="#36" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtysix} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtyseven">
+  <a href="#37" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtyseven} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtyeight">
+  <a href="#38" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtyeight} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item thirtynine">
+  <a href="#39" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={thirtynine} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item forty">
+  <a href="#40" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={forty} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortyone">
+  <a href="#41" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortyone} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortytwo">
+  <a href="#42" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortytwo} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortythree">
+  <a href="#43" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortythree} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortyfour">
+  <a href="#44" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortyfour} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortyfive">
+  <a href="#45" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortyfive} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortysix">
+  <a href="#46" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortysix} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortyseven">
+  <a href="#47" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortyseven} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortyeight">
+  <a href="#48" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortyeight} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fortynine">
+  <a href="#49" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fortynine} class="gallery__images-small" />
+  </a>
+</div>
+<div class="gallery__images-item fifty">
+  <a href="#50" class="gallery__images-link">
+    {/* <span class="overlay"></span> */}
+    <img src={fifty} class="gallery__images-small" />
+  </a>
+</div>
+
+
 
 
 
@@ -638,7 +789,7 @@ export const Gallery = () => {
       ×
     </a>
     <img src={twentynine} class="gallery__lightbox-image" />
-    <a href="#29" class="back">
+    <a href="#28" class="back">
       <i class="fas fa-chevron-left"></i>
     </a>
     <a href="#30" class="next">
@@ -646,6 +797,147 @@ export const Gallery = () => {
     </a>
   </div>
 </div>
+<div class="gallery__lightbox" id="30">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirty} class="gallery__lightbox-image" />
+    <a href="#29" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#31" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="31">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtyone} class="gallery__lightbox-image" />
+    <a href="#30" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#32" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="32">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtytwo} class="gallery__lightbox-image" />
+    <a href="#31" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#33" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="33">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtythree} class="gallery__lightbox-image" />
+    <a href="#32" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#34" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="34">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtyfour} class="gallery__lightbox-image" />
+    <a href="#33" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#35" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="35">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtyfive} class="gallery__lightbox-image" />
+    <a href="#34" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#36" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="36">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtysix} class="gallery__lightbox-image" />
+    <a href="#35" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#37" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="37">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtyseven} class="gallery__lightbox-image" />
+    <a href="#36" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#38" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="38">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtyeight} class="gallery__lightbox-image" />
+    <a href="#37" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#39" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+<div class="gallery__lightbox" id="39">
+  <div class="gallery__lightbox-content">
+    <a href="#" class="close">
+      ×
+    </a>
+    <img src={thirtynine} class="gallery__lightbox-image" />
+    <a href="#38" class="back">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#40" class="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </div>
+</div>
+
 
 
 </div>
