@@ -76,7 +76,7 @@ export const Home = () => (
     </div>
     <div class="col">
     <div className="exper"><h1>Quality&nbsp; <FaRegHandshake color="grey" size={30}/></h1>  
-    <p1>In best-quality concretes like self-consolidating, high-strengths, and best-performance concretes, foamed concrete can be used by suitable mix designs and selection of materials.</p1>
+    <p1>To achieve your desired service, high-strength and high-performance concrete will be used.</p1>
     </div>
     </div>
     <div class="col">
