@@ -16,19 +16,19 @@ export const Navbar = () => {
 			<div className="options justify-content-end">
 			
 			<Link to="/">
-				<button className="button">Home</button>
+			<button className="button"onClick="document.getElementByID('middle').scrollIntoView();">Home</button>			
 			</Link>
 				<Link to="/aboutus">
-					<button className="button">About Us</button>
+					<button className="button"onClick="document.getElementByID('middle').scrollIntoView();">About Us</button>
 				</Link>
 				<Link to="/gallery">
-					<button className="button">Gallery</button>
+				<button className="button"onClick="document.getElementByID('middle').scrollIntoView();">Gallery</button>
 				</Link>
 				<Link to="/services">
-					<button className="button">Services</button>
+				<button className="button"onClick="document.getElementByID('middle').scrollIntoView();">Services</button>
 				</Link>
 				<Link to="/contact">
-					<button className="button">Request Quote</button>
+				<button className="button"onClick="document.getElementByID('middle').scrollIntoView();">Request Quote</button>
 				</Link>
 			</div>
 		</nav>
